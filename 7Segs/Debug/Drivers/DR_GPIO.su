@@ -1,0 +1,6 @@
+../Drivers/DR_GPIO.c:4:6:InitGPIO	8	static
+../Drivers/DR_GPIO.c:39:6:SetDIR	24	static
+../Drivers/DR_GPIO.c:47:6:SetPIN	24	static
+../Drivers/DR_GPIO.c:55:10:GetPIN	24	static
+../Drivers/DR_GPIO.c:71:6:SetPINMODE_IN	16	static
+../Drivers/DR_GPIO.c:80:6:SetPINMODE_OUT	16	static

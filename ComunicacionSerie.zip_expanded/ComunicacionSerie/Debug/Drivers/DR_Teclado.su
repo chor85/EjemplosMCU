@@ -1,0 +1,2 @@
+../Drivers/DR_Teclado.c:13:6:DriverTecladoSW	24	static
+../Drivers/DR_Teclado.c:32:9:getTecla	16	static

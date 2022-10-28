@@ -1,0 +1,23 @@
+11:15:24 **** Incremental Build of configuration Debug for project ProyectoBase ****
+make -r -j2 all 
+Building file: ../Aplicacion/MdeLed.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/Ejer1.zip_expanded/ProyectoBase/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/Ejer1.zip_expanded/ProyectoBase/Drivers" -I"/home/chor/Documents/EjemplosMCU2022/Ejer1.zip_expanded/ProyectoBase/Primitivas" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/MdeLed.d" -MT"Aplicacion/MdeLed.o" -MT"Aplicacion/MdeLed.d" -o "Aplicacion/MdeLed.o" "../Aplicacion/MdeLed.c"
+Finished building: ../Aplicacion/MdeLed.c
+ 
+Building target: ProyectoBase.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="ProyectoBase.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "ProyectoBase_Debug.ld" -o "ProyectoBase.axf"  ./Primitivas/PR_Leds.o ./Primitivas/PR_TImers.o ./Primitivas/PR_Teclado.o  ./Drivers/DR_GPIO.o ./Drivers/DR_Init.o ./Drivers/DR_teclado.o ./Drivers/Systick.o  ./Aplicacion/MdeLed.o ./Aplicacion/ProyectoBase.o ./Aplicacion/cr_startup_lpc84x.o   
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:        2296 B        64 KB      3.50%
+        RamLoc16:         164 B        16 KB      1.00%
+Finished building target: ProyectoBase.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "ProyectoBase.axf"; # arm-none-eabi-objcopy -v -O binary "ProyectoBase.axf" "ProyectoBase.bin" ; # checksum -p LPC845 -d "ProyectoBase.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2284	     12	    152	   2448	    990	ProyectoBase.axf
+ 
+
+11:15:27 Build Finished. 0 errors, 0 warnings. (took 3s.153ms)
+

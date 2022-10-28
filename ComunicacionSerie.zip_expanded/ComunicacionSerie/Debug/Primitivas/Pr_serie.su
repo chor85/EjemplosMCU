@@ -1,0 +1,6 @@
+../Primitivas/Pr_serie.c:16:6:Transmitir	32	static
+../Primitivas/Pr_serie.c:26:10:RecibirSerie	16	static
+../Primitivas/Pr_serie.c:42:6:Push_Tx	16	static
+../Primitivas/Pr_serie.c:54:9:PopTx	16	static
+../Primitivas/Pr_serie.c:68:9:PopRx	16	static
+../Primitivas/Pr_serie.c:79:6:Push_Rx	16	static

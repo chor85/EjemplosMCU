@@ -1,0 +1,4 @@
+../Drivers/DR_teclado.c:6:6:DriverTecladoSW	24	static
+../Drivers/DR_teclado.c:30:9:DriverTecladoHW	8	static
+../Drivers/DR_teclado.c:44:9:DriverTecladoMatricialHW	8	static
+../Drivers/DR_teclado.c:69:6:InitTecladoMatricial	8	static

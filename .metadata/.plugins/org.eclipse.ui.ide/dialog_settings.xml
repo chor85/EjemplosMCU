@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/chor/Escritorio/Parciales/lucio cabrera/Álvaro Lucio Cabrera Borrero - Primer Parcial/Ejercicio 2"/>
+			<item value="/home/chor/Escritorio/Parciales/Albano nicolas/Parcial_Albano"/>
+			<item value="/home/chor/Escritorio/Parciales/Valeria Bank/1er_Parcial_VALERIA-BANK (1).zip/1er_Parcial.zip_expanded"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="/home/chor/Descargas/TecladoDisplay.zip"/>
+			<item value="/home/chor/Descargas/PruebaSerie.zip"/>
+			<item value="/home/chor/Descargas/PruebaADC.zip"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/chor/Descargas/PruebaADC.zip"/>
+			<item value="/home/chor/Documents/EjemplosMCU2022/PruebaADC"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL5-4_Galli_Fernandez"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL5-1y2_Galli_Fernandez"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN4_Avalos/TPLN4_Ej4.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN4_Avalos/TPL4_ejr2.zip_expanded.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/tp3_Galli_Fernandez/tp3/TPL3-5/TPL3"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/tp3_Galli_Fernandez/tp3/TPL3-3"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/tp3_Galli_Fernandez/tp3/TPL3-1"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/tp3_Galli_Fernandez/tp3"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN3_Avalos/TPL/TPLN3_Punto5.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN3_Avalos/TPL/TPLN3_Punto4.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN3_Avalos/TPL/TPLN3_Punto3.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN3_Avalos/TPL/TPLN3_Punto2.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPLN3_Avalos/TPL/TPLN3_Punto1.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL3_Fin_Campos/TPL3_Fin/TPL3_ej5_v2.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL3_Fin_Campos/TPL3_Fin/TPL3_ej4.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL3_Fin_Campos/TPL3_Fin/TPL3_ej3.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL3_Fin_Campos/TPL3_Fin/TPL3_ej2.zip"/>
+			<item value="/home/chor/Escritorio/TPLs 3 y 4/TPL3_Fin_Campos/TPL3_Fin/TPL3_ej1_v2.zip"/>
+			<item value="/home/chor/Descargas/ComunicacionSerie.zip"/>
+			<item value="/home/chor/Documents/EjemplosMCU2022/SerieBuffers.zip_expanded"/>
+			<item value="/home/chor/Descargas/SerieBuffers.zip"/>
+			<item value="/home/chor/Escritorio/Recuperatorios 1er parcial/RecuperatorioLopez/Parcial1re/MDE"/>
+			<item value="/home/chor/Escritorio/Recuperatorios 1er parcial/RECUPERATORIO NICOLAS FERNANDEZ/RecuperatorioMde"/>
+			<item value="/home/chor/Escritorio/Recuperatorios 1er parcial/recuperatorio_ltarascio/Rec_parcial1"/>
+			<item value="/home/chor/Escritorio/Recuperatorios 1er parcial/AlvarezGerson/RecuperatorioMDE"/>
+			<item value="/home/chor/Escritorio/TPL2/Ejercicio 4/MCU_Ejercicio4.zip"/>
+			<item value="/home/chor/Escritorio/TPL2/Ejercicio 3/MCU_Ejercicio3_v2.zip"/>
+			<item value="/home/chor/Escritorio/TPL2/Ejercicio 2/MCU_Ejercicio2_v2.zip"/>
+			<item value="/home/chor/Escritorio/TPL2/Ejercicio 1/MCU_Ejercicio1_v2.zip"/>
+			<item value="/home/chor/Descargas/Systick.zip"/>
+			<item value="/home/chor/Escritorio/Parcial14_7_22.zip"/>
+			<item value="/home/chor/Descargas/Int_Externas.zip"/>
+			<item value="/home/chor/Descargas/GPIO_Drivers.zip"/>
+			<item value="/home/chor/Descargas/GPIO.zip"/>
+			<item value="/home/chor/Descargas/Registros2.zip"/>
+			<item value="/home/chor/Escritorio/Parciales/umf/Luciano Tarascio/parcialmcu/parcial"/>
+			<item value="/home/chor/Escritorio/Parciales/umf/parcialNicolasFernandez/parcial"/>
+			<item value="/home/chor/Escritorio/Parciales/parcialGerson/MdeEParcialInfo2"/>
+			<item value="/home/chor/Escritorio/Parciales/Pablo Abalos/Parcial14_7_22_MCU/Parcial14_7_22"/>
+			<item value="/home/chor/Descargas/Ejercicio5_Bank/Ejercicio5"/>
+			<item value="/home/chor/Descargas/Ejer1.zip"/>
+		</list>
+	</section>
+</section>

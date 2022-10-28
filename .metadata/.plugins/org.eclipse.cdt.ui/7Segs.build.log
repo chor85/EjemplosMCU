@@ -1,0 +1,27 @@
+08:53:23 **** Incremental Build of configuration Debug for project 7Segs ****
+make -r -j2 all 
+Building file: ../Drivers/Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/7Segs/Drivers" -I"/home/chor/Documents/EjemplosMCU2022/7Segs/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/7Segs/Aplicacion" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/Systick.d" -MT"Drivers/Systick.o" -MT"Drivers/Systick.d" -o "Drivers/Systick.o" "../Drivers/Systick.c"
+../Drivers/Systick.c: In function 'SysTick_Handler':
+../Drivers/Systick.c:6:10: warning: unused variable 'aux' [-Wunused-variable]
+    6 |  uint8_t aux = SYSTICK->CSR;
+      |          ^~~
+Finished building: ../Drivers/Systick.c
+ 
+Building target: 7Segs.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="7Segs.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "7Segs_Debug.ld" -o "7Segs.axf"  ./Primitivas/PR_7Seg.o  ./Drivers/DR_7Seg.o ./Drivers/DR_GPIO.o ./Drivers/DR_Init.o ./Drivers/Systick.o  ./Aplicacion/7Segs.o ./Aplicacion/cr_startup_lpc84x.o   
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:        2088 B        64 KB      3.19%
+        RamLoc16:          12 B        16 KB      0.07%
+Finished building target: 7Segs.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "7Segs.axf"; # arm-none-eabi-objcopy -v -O binary "7Segs.axf" "7Segs.bin" ; # checksum -p LPC845 -d "7Segs.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2084	      4	      8	   2096	    830	7Segs.axf
+ 
+
+08:53:24 Build Finished. 0 errors, 1 warnings. (took 1s.192ms)
+

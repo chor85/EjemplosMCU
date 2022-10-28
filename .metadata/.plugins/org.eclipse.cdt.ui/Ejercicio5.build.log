@@ -1,0 +1,23 @@
+16:11:57 **** Incremental Build of configuration Debug for project Ejercicio5 ****
+make -r -j2 all 
+Building file: ../Aplicacion/MdeGaraje.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Descargas/Ejercicio5_Bank/Ejercicio5/Drivers" -I"/home/chor/Descargas/Ejercicio5_Bank/Ejercicio5/Primitivas" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/MdeGaraje.d" -MT"Aplicacion/MdeGaraje.o" -MT"Aplicacion/MdeGaraje.d" -o "Aplicacion/MdeGaraje.o" "../Aplicacion/MdeGaraje.c"
+Finished building: ../Aplicacion/MdeGaraje.c
+ 
+Building target: Ejercicio5.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Ejercicio5.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Ejercicio5_Debug.ld" -o "Ejercicio5.axf"  ./Primitivas/PR_Leds.o ./Primitivas/PR_TImers.o ./Primitivas/PR_Teclado.o  ./Drivers/DR_GPIO.o ./Drivers/DR_Init.o ./Drivers/DR_teclado.o ./Drivers/Systick.o  ./Aplicacion/MdeGaraje.o ./Aplicacion/cr_startup_lpc84x.o ./Aplicacion/main.o   
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:        1956 B        64 KB      2.98%
+        RamLoc16:         176 B        16 KB      1.07%
+Finished building target: Ejercicio5.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "Ejercicio5.axf"; # arm-none-eabi-objcopy -v -O binary "Ejercicio5.axf" "Ejercicio5.bin" ; # checksum -p LPC845 -d "Ejercicio5.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1948	      8	    168	   2124	    84c	Ejercicio5.axf
+ 
+
+16:11:58 Build Finished. 0 errors, 0 warnings. (took 1s.454ms)
+

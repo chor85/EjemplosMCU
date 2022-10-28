@@ -1,0 +1,2 @@
+../Primitivas/Leds.c:11:6:prenderLed	16	static
+../Primitivas/Leds.c:27:6:apagarLed	16	static

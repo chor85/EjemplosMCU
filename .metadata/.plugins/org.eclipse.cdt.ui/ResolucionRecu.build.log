@@ -1,0 +1,53 @@
+10:21:08 **** Incremental Build of configuration Debug for project ResolucionRecu ****
+make -r -j2 all 
+Building file: ../src/MdePpal.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/MdePpal.d" -MT"src/MdePpal.o" -MT"src/MdePpal.d" -o "src/MdePpal.o" "../src/MdePpal.c"
+Finished building: ../src/MdePpal.c
+ 
+Building target: ResolucionRecu.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="ResolucionRecu.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "ResolucionRecu_Debug.ld" -o "ResolucionRecu.axf"  ./src/MdePpal.o ./src/MdeSerie.o ./src/ResolucionRecu.o ./src/cr_startup_lpc84x.o   
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: ./src/MdePpal.o: in function `MdePpal':
+/home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:26: undefined reference to `GetBoton'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:35: undefined reference to `R_Sellado'
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:        1396 B        64 KB      2.13%
+        RamLoc16:          12 B        16 KB      0.07%
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:44: undefined reference to `R_Sellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:47: undefined reference to `TempOK'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:50: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:51: undefined reference to `TimerStart'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:55: undefined reference to `LeerByte'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:66: undefined reference to `R_Sellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:67: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:68: undefined reference to `TimerStop'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:74: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:75: undefined reference to `PistonSellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:76: undefined reference to `TimerStart'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:81: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:82: undefined reference to `TimerStop'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:93: undefined reference to `R_Sellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:94: undefined reference to `PistonSellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:95: undefined reference to `TimerStop'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:101: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:102: undefined reference to `PistonSellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:103: undefined reference to `TimerStart'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:110: undefined reference to `PistonSellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:111: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:112: undefined reference to `R_Sellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:114: undefined reference to `TimerStop'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: ./src/MdePpal.o: in function `InitMdePpal':
+/home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:122: undefined reference to `PistonSellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:123: undefined reference to `MotorCinta'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/MdePpal.c:124: undefined reference to `R_Sellado'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: ./src/ResolucionRecu.o: in function `main':
+/home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/ResolucionRecu.c:19: undefined reference to `InitHw'
+/usr/local/mcuxpressoide-11.5.1_7266/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.5.1.202201181444/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /home/chor/Documents/EjemplosMCU2022/ResolucionRecu/Debug/../src/ResolucionRecu.c:25: undefined reference to `TimerEvent'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:47: ResolucionRecu.axf] Error 1
+make: *** [makefile:38: all] Error 2
+"make -r -j2 all" terminated with exit code 2. Build might be incomplete.
+
+10:21:10 Build Failed. 35 errors, 0 warnings. (took 1s.752ms)
+

@@ -1,0 +1,11 @@
+19:06:43 **** Incremental Build of configuration Debug for project Int_Externas ****
+make -r -j2 all 
+make[1]: No se hace nada para 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "Int_Externas.axf"; # arm-none-eabi-objcopy -v -O binary "Int_Externas.axf" "Int_Externas.bin" ; # checksum -p LPC845 -d "Int_Externas.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1740	      4	    268	   2012	    7dc	Int_Externas.axf
+ 
+
+19:06:44 Build Finished. 0 errors, 0 warnings. (took 943ms)
+

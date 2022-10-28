@@ -1,0 +1,6 @@
+../Drivers/DR_UART.c:16:6:UART0_Init	8	static
+../Drivers/DR_UART.c:57:6:UART0_IRQHandler	16	static
+../Drivers/DR_UART.c:82:9:PopTx	16	static
+../Drivers/DR_UART.c:96:9:PopRx	16	static
+../Drivers/DR_UART.c:111:6:PushTx	16	static
+../Drivers/DR_UART.c:121:6:PushRx	16	static

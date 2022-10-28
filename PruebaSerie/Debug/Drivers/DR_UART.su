@@ -1,0 +1,2 @@
+DR_UART.c:9:6:UART0_Init	8	static
+DR_UART.c:50:6:UART0_IRQHandler	16	static

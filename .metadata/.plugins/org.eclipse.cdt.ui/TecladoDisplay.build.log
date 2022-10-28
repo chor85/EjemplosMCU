@@ -1,0 +1,11 @@
+12:29:12 **** Incremental Build of configuration Debug for project TecladoDisplay ****
+make -r -j2 all 
+make[1]: No se hace nada para 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "TecladoDisplay.axf"; # arm-none-eabi-objcopy -v -O binary "TecladoDisplay.axf" "TecladoDisplay.bin" ; # checksum -p LPC845 -d "TecladoDisplay.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3492	      8	    168	   3668	    e54	TecladoDisplay.axf
+ 
+
+12:29:13 Build Finished. 0 errors, 0 warnings. (took 904ms)
+

@@ -1,0 +1,2 @@
+../Drivers/DR_ADC.c:14:6:InitADC	8	static
+../Drivers/DR_ADC.c:73:6:ADC_SEQA_IRQHandler	16	static

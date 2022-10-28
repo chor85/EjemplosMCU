@@ -1,0 +1,11 @@
+12:23:31 **** Incremental Build of configuration Debug for project GPIO ****
+make -r -j2 all 
+make[1]: No se hace nada para 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "GPIO.axf"; # arm-none-eabi-objcopy -v -O binary "GPIO.axf" "GPIO.bin" ; # checksum -p LPC845 -d "GPIO.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1756	      4	    264	   2024	    7e8	GPIO.axf
+ 
+
+12:23:33 Build Finished. 0 errors, 0 warnings. (took 1s.571ms)
+

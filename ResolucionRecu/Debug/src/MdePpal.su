@@ -1,0 +1,3 @@
+../src/MdePpal.c:22:6:MdePpal	24	static
+../src/MdePpal.c:120:6:InitMdePpal	8	static
+../src/MdePpal.c:127:6:HandlerT0	8	static

@@ -1,0 +1,40 @@
+11:51:25 **** Incremental Build of configuration Debug for project Registros ****
+make -r -j2 all 
+Building file: ../Drivers/DR_Init.c
+Building file: ../Aplicacion/Registros.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_Init.d" -MT"Drivers/DR_Init.o" -MT"Drivers/DR_Init.d" -o "Drivers/DR_Init.o" "../Drivers/DR_Init.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/Registros.d" -MT"Aplicacion/Registros.o" -MT"Aplicacion/Registros.d" -o "Aplicacion/Registros.o" "../Aplicacion/Registros.c"
+In file included from ../Drivers/DR_Init.c:8:
+../Drivers/DR_Init.h:14:32: warning: initialization of 'void (*)(int)' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   14 | #define FRO_SET_FRECUENCY_FUNC (0x0F0026F5U)
+      |                                ^
+../Drivers/DR_Init.c:11:31: note: in expansion of macro 'FRO_SET_FRECUENCY_FUNC'
+   11 | void (*fro_set_frec) (int ) = FRO_SET_FRECUENCY_FUNC;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Drivers/DR_Init.c
+ 
+Finished building: ../Aplicacion/Registros.c
+Building file: ../Aplicacion/cr_startup_lpc84x.c
+ 
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/Registros2.zip_expanded/Registros/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/cr_startup_lpc84x.d" -MT"Aplicacion/cr_startup_lpc84x.o" -MT"Aplicacion/cr_startup_lpc84x.d" -o "Aplicacion/cr_startup_lpc84x.o" "../Aplicacion/cr_startup_lpc84x.c"
+Finished building: ../Aplicacion/cr_startup_lpc84x.c
+ 
+Building target: Registros.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Registros.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Prueba845_Debug.ld" -o "Registros.axf"  ./Drivers/DR_Init.o  ./Aplicacion/Registros.o ./Aplicacion/cr_startup_lpc84x.o   
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:         840 B        64 KB      1.28%
+        RamLoc16:           8 B        16 KB      0.05%
+Finished building target: Registros.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "Registros.axf"; # arm-none-eabi-objcopy -v -O binary "Registros.axf" "Registros.bin" ; # checksum -p LPC845 -d "Registros.bin";
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	      0	    840	    348	Registros.axf
+ 
+
+11:51:26 Build Finished. 0 errors, 1 warnings. (took 1s.247ms)
+

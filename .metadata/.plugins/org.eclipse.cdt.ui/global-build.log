@@ -1,106 +1,20 @@
-17:18:39 **** Build of configuration Debug for project PruebaADC ****
+20:27:33 **** Incremental Build of configuration Debug for project PruebaADC ****
 make -r -j2 all 
-Building file: ../Primitivas/PR_7Seg.c
-Building file: ../Primitivas/PR_ADC.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_7Seg.d" -MT"Primitivas/PR_7Seg.o" -MT"Primitivas/PR_7Seg.d" -o "Primitivas/PR_7Seg.o" "../Primitivas/PR_7Seg.c"
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_ADC.d" -MT"Primitivas/PR_ADC.o" -MT"Primitivas/PR_ADC.d" -o "Primitivas/PR_ADC.o" "../Primitivas/PR_ADC.c"
-Finished building: ../Primitivas/PR_7Seg.c
-Finished building: ../Primitivas/PR_ADC.c
- 
- 
-Building file: ../Primitivas/PR_Leds.c
-Building file: ../Primitivas/PR_TImers.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_Leds.d" -MT"Primitivas/PR_Leds.o" -MT"Primitivas/PR_Leds.d" -o "Primitivas/PR_Leds.o" "../Primitivas/PR_Leds.c"
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_TImers.d" -MT"Primitivas/PR_TImers.o" -MT"Primitivas/PR_TImers.d" -o "Primitivas/PR_TImers.o" "../Primitivas/PR_TImers.c"
-Finished building: ../Primitivas/PR_TImers.c
-Finished building: ../Primitivas/PR_Leds.c
- 
- 
-Building file: ../Primitivas/PR_Teclado.c
-Building file: ../Primitivas/PR_UART.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_Teclado.d" -MT"Primitivas/PR_Teclado.o" -MT"Primitivas/PR_Teclado.d" -o "Primitivas/PR_Teclado.o" "../Primitivas/PR_Teclado.c"
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Primitivas/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Primitivas/PR_UART.d" -MT"Primitivas/PR_UART.o" -MT"Primitivas/PR_UART.d" -o "Primitivas/PR_UART.o" "../Primitivas/PR_UART.c"
-Finished building: ../Primitivas/PR_UART.c
- 
-Finished building: ../Primitivas/PR_Teclado.c
-Building file: ../Drivers/DR_7Seg.c
- 
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_7Seg.d" -MT"Drivers/DR_7Seg.o" -MT"Drivers/DR_7Seg.d" -o "Drivers/DR_7Seg.o" "../Drivers/DR_7Seg.c"
-Building file: ../Drivers/DR_ADC.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_ADC.d" -MT"Drivers/DR_ADC.o" -MT"Drivers/DR_ADC.d" -o "Drivers/DR_ADC.o" "../Drivers/DR_ADC.c"
-Finished building: ../Drivers/DR_ADC.c
- 
-Building file: ../Drivers/DR_GPIO.c
-Finished building: ../Drivers/DR_7Seg.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_GPIO.d" -MT"Drivers/DR_GPIO.o" -MT"Drivers/DR_GPIO.d" -o "Drivers/DR_GPIO.o" "../Drivers/DR_GPIO.c"
- 
-Building file: ../Drivers/DR_Init.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_Init.d" -MT"Drivers/DR_Init.o" -MT"Drivers/DR_Init.d" -o "Drivers/DR_Init.o" "../Drivers/DR_Init.c"
-In file included from ../Drivers/DR_Init.c:1:
-../Drivers/DR_Init.h:7:32: warning: initialization of 'void (*)(int)' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
-    7 | #define FRO_SET_FRECUENCY_FUNC ( 0x0F0026F5U)
-      |                                ^
-../Drivers/DR_Init.c:4:31: note: in expansion of macro 'FRO_SET_FRECUENCY_FUNC'
-    4 | void (*fro_set_frec) (int ) = FRO_SET_FRECUENCY_FUNC;
-      |                               ^~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../Drivers/DR_GPIO.c
- 
-Building file: ../Drivers/DR_UART.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_UART.d" -MT"Drivers/DR_UART.o" -MT"Drivers/DR_UART.d" -o "Drivers/DR_UART.o" "../Drivers/DR_UART.c"
-Finished building: ../Drivers/DR_Init.c
- 
-Building file: ../Drivers/DR_teclado.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/DR_teclado.d" -MT"Drivers/DR_teclado.o" -MT"Drivers/DR_teclado.d" -o "Drivers/DR_teclado.o" "../Drivers/DR_teclado.c"
-Finished building: ../Drivers/DR_teclado.c
-Finished building: ../Drivers/DR_UART.c
- 
- 
-Building file: ../Drivers/Systick.c
 Building file: ../Aplicacion/PruebaADC.c
 Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Drivers/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Drivers/Systick.d" -MT"Drivers/Systick.o" -MT"Drivers/Systick.d" -o "Drivers/Systick.o" "../Drivers/Systick.c"
-Invoking: MCU C Compiler
 arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/PruebaADC.d" -MT"Aplicacion/PruebaADC.o" -MT"Aplicacion/PruebaADC.d" -o "Aplicacion/PruebaADC.o" "../Aplicacion/PruebaADC.c"
-../Drivers/Systick.c: In function 'SysTick_Handler':
-../Drivers/Systick.c:10:10: warning: unused variable 'aux' [-Wunused-variable]
-   10 |  uint8_t aux = SYSTICK->CSR;
-      |          ^~~
 Finished building: ../Aplicacion/PruebaADC.c
- 
-Building file: ../Aplicacion/cr_startup_lpc84x.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/cr_startup_lpc84x.d" -MT"Aplicacion/cr_startup_lpc84x.o" -MT"Aplicacion/cr_startup_lpc84x.d" -o "Aplicacion/cr_startup_lpc84x.o" "../Aplicacion/cr_startup_lpc84x.c"
-Finished building: ../Drivers/Systick.c
- 
-Building file: ../Aplicacion/crp.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Primitivas" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Aplicacion" -I"/home/chor/Documents/EjemplosMCU2022/PruebaADC.zip_expanded/PruebaADC/Drivers" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../Aplicacion/"= -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"Aplicacion/crp.d" -MT"Aplicacion/crp.o" -MT"Aplicacion/crp.d" -o "Aplicacion/crp.o" "../Aplicacion/crp.c"
-Finished building: ../Aplicacion/crp.c
- 
-Finished building: ../Aplicacion/cr_startup_lpc84x.c
  
 Building target: PruebaADC.axf
 Invoking: MCU Linker
 arm-none-eabi-gcc -nostdlib -Xlinker -Map="PruebaADC.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "PruebaADC_Debug.ld" -o "PruebaADC.axf"  ./Primitivas/PR_7Seg.o ./Primitivas/PR_ADC.o ./Primitivas/PR_Leds.o ./Primitivas/PR_TImers.o ./Primitivas/PR_Teclado.o ./Primitivas/PR_UART.o  ./Drivers/DR_7Seg.o ./Drivers/DR_ADC.o ./Drivers/DR_GPIO.o ./Drivers/DR_Init.o ./Drivers/DR_UART.o ./Drivers/DR_teclado.o ./Drivers/Systick.o  ./Aplicacion/PruebaADC.o ./Aplicacion/cr_startup_lpc84x.o ./Aplicacion/crp.o   
 Memory region         Used Size  Region Size  %age Used
-        MFlash64:        3372 B        64 KB      5.15%
-        RamLoc16:         268 B        16 KB      1.64%
+        MFlash64:        3660 B        64 KB      5.58%
+        RamLoc16:         272 B        16 KB      1.66%
 Finished building target: PruebaADC.axf
  
 Performing post-build steps
 arm-none-eabi-size "PruebaADC.axf"; # arm-none-eabi-objcopy -v -O binary "PruebaADC.axf" "PruebaADC.bin" ; # checksum -p LPC845 -d "PruebaADC.bin";
    text	   data	    bss	    dec	    hex	filename
-   3364	      8	    260	   3632	    e30	PruebaADC.axf
+   3652	      8	    264	   3924	    f54	PruebaADC.axf
  

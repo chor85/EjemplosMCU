@@ -14,23 +14,17 @@
 #include "PR_UART.h"
 #include "PR_ADC.h"
 #include "PR_7Seg.h"
-#include "PR_Timers.h"
 
-void Handler1Seg ( void );
-
-uint32_t cuentas_ADC;
 
 int main(void) {
 
+	uint32_t cuentas_ADC;
 
 	InitHw();
-
-	TimerStart(0,1,Handler1Seg,SEG);
 
 	while(1) {
 
 		cuentas_ADC = LeerSensor();
-
 		Display( 0 , cuentas_ADC%1000 );
 		Display( 1 , cuentas_ADC/1000 );
 
@@ -39,8 +33,3 @@ int main(void) {
     return 0 ;
 }
 
-void Handler1Seg ( void )
-{
-	TimerStart(0,1,Handler1Seg,SEG);
-	TransmitirMsg ( (uint8_t *)&cuentas_ADC , 2 );
-}

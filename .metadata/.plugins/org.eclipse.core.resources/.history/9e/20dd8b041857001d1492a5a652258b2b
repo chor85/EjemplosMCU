@@ -16,16 +16,13 @@
 #include "PR_7Seg.h"
 #include "PR_Timers.h"
 
-void Handler1Seg ( void );
-
-uint32_t cuentas_ADC;
-
 int main(void) {
 
+	uint32_t cuentas_ADC;
 
 	InitHw();
 
-	TimerStart(0,1,Handler1Seg,SEG);
+	TimerStart(0,1,Handler1Seg,SEGS);
 
 	while(1) {
 
@@ -41,6 +38,6 @@ int main(void) {
 
 void Handler1Seg ( void )
 {
-	TimerStart(0,1,Handler1Seg,SEG);
+	TimerStart(0,1,Handler1Seg,SEGS);
 	TransmitirMsg ( (uint8_t *)&cuentas_ADC , 2 );
 }

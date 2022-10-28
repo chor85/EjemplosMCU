@@ -18,10 +18,9 @@
 
 void Handler1Seg ( void );
 
-uint32_t cuentas_ADC;
-
 int main(void) {
 
+	uint32_t cuentas_ADC;
 
 	InitHw();
 
@@ -41,6 +40,6 @@ int main(void) {
 
 void Handler1Seg ( void )
 {
-	TimerStart(0,1,Handler1Seg,SEG);
+	TimerStart(0,1,Handler1Seg,SEGS);
 	TransmitirMsg ( (uint8_t *)&cuentas_ADC , 2 );
 }
